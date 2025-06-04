@@ -4,10 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <title>WM | Portfolio</title>
 </head>
 <body>
-<nav class="navbar navbar-expand bg-body-tertiary">
+<nav class="navbar navbar-expand-lg bg-body-tertiary">
     <div class="container-fluid">
         <a class="navbar-brand" href="#">
         <img src="{{asset('images/download.png')}}" alt="logo" width = "38" height = "30" class="d-inline-block align-top">
@@ -41,6 +42,11 @@
         </div>
     </div>
 </nav>
+<div class="container text-center">
+<div class="row">
+    <div class="col-6"> </div>
+</div>
+</div>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
